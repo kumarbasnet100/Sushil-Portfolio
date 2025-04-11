@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id='favicon' rel="shortcut icon" href="./assets/ sus.png" type="image/x-png">
     <title>Sushil Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -41,7 +42,7 @@
           <a href="https://www.behance.net/sushilthakuri1"><i class="fab fa-behance"></i></a>
           <a href="https://www.instagram.com/_sushil_chand_thakuri/"><i class="fab fa-instagram"></i></a>
         </div>
-        <a href="#" class="btn">More About Me</a>
+        <a href="https://www.linkedin.com/in/sushil-chand-59006831b/" target="_blank" class="button">More About Me</a>
       </div>
       <div class="intro-image">
         <img src="/assets/hero.png" alt="Sushil Chand" />
@@ -64,7 +65,7 @@
           understanding of user experience (UX) and user interface (UI)
           principles...
         </p>
-        <a href="https://drive.google.com/drive/folders/1BNyW7bR8dzwhkMUOysNe397jL5BwQN8v" target="_blank" class="btn">Resume</a>
+        <a href="https://drive.google.com/drive/folders/1BNyW7bR8dzwhkMUOysNe397jL5BwQN8v" target="_blank" class="button">Resume</a>
       </div>
     </section>
 
@@ -72,20 +73,20 @@
       <h2>My <span>Services</span></h2>
       <div class="services-container">
         <div class="service-box">
-          <div class="service-icon">⚙️</div>
+          <div class="service-icon">🖼️</div>
           <h3>UI/UX Design</h3>
           <p>
             We provide UI/UX design services that combine clean, modern interfaces with smooth, user-friendly experiences.
           </p>
-          <a href="#" class="btn">learn more</a>
+          <a href="#" class="button">learn more</a>
         </div>
         <div class="service-box">
-          <div class="service-icon">💻</div>
+          <div class="service-icon">🕸️</div>
           <h3>Web Design</h3>
           <p>
-            We offer web design services that are modern, responsive, and tailored to your brand-ensuring a seamless user experience across all devices.
+            We create modern, responsive websites tailored to your brand for a seamless experience on any device.
           </p>
-          <a href="#" class="btn">learn more</a>
+          <a href="#" class="button">learn more</a>
         </div>
         <div class="service-box">
           <div class="service-icon">📱</div>
@@ -93,7 +94,7 @@
           <p>
             We design digital products that are intuitive, functional, and user-focused-from concept to final experience.
           </p>
-          <a href="#" class="btn">learn more</a>
+          <a href="#" class="button">learn more</a>
         </div>
       </div>
     </section>
@@ -191,7 +192,7 @@
             Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!
           </p>
           <p><strong>Email:</strong> chandsushil000@gmail.com</p>
-          <p><strong>Phone:</strong> +977 9864864186</p>
+          <p><strong>Phone:</strong> +9779864864186</p>
           <div class="social-links">
             <a href="https://www.facebook.com/profile.php?id=61552390315157"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.behance.net/sushilthakuri1"><i class="fab fa-behance"></i></a>
@@ -200,12 +201,17 @@
           </div>
         </div>
         <div class="contact-form">
-          <form action="#">
-            <input type="text" placeholder="Enter Your Name" required />
-            <input type="email" placeholder="Enter Your Email" required />
-            <input type="text" placeholder="Enter Your Subject" required />
-            <textarea placeholder="Enter Your Message" required></textarea>
-            <button type="submit" class="btn">Submit</button>
+
+          <form action="" class="contact__form" id="contact-form">
+            <input type="text" name="user_name" placeholder="Enter Your Name" required />
+            <input type="email" name="user_email" placeholder="Enter Your Email" required />
+            <input type="text" name="user_subject" placeholder="Enter Your Subject" required />
+            <textarea name="user_message" placeholder="Enter Your Message" required></textarea>
+            <div class="button-area">
+              <p class="contact__message" id="contact-message"></p>
+              <button type="submit" class="contact__button button">
+                Send Message</button>
+            </div>
           </form>
         </div>
       </div>
@@ -232,7 +238,7 @@
       
             <div class="box">
                 <h3>Contact Info</h3>
-                <p> <i class="fas fa-phone"></i>+977 9864864186</p>
+                <p> <i class="fas fa-phone"></i>+9779864864186</p>
                 <p> <i class="fas fa-envelope"></i>chandsushil000@gmail.com</p>
                 <p> <i class="fas fa-map-marked-alt"></i>Bhaktapur, Nepal-44800</p>
                 <div class="share">

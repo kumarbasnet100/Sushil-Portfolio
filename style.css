@@ -100,7 +100,7 @@ nav ul li :hover{
   color: #00f0ff;
 }
 
-.btn {
+.button {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -112,7 +112,7 @@ nav ul li :hover{
   transition: background-color 0.3s;
 }
 
-.btn:hover {
+.button:hover {
   background-color: #00c4ff;
 }
 
@@ -250,7 +250,7 @@ nav ul li :hover{
   margin-bottom: 20px;
 }
 
-.service-box .btn {
+.service-box .button {
   display: inline-block;
   padding: 10px 20px;
   color: #ffffff;
@@ -260,7 +260,7 @@ nav ul li :hover{
   transition: background-color 0.3s ease;
 }
 
-.service-box .btn:hover {
+.service-box .button:hover {
   background-color: #00cce7;
 }
 
@@ -456,7 +456,7 @@ p {
   resize: none;
 }
 
-.contact-form .btn {
+.contact-form .button {
   width: 100%;
   padding: 15px 20px;
   background-color: #00f0ff;
@@ -468,7 +468,7 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.contact-form .btn:hover {
+.contact-form .button:hover {
   background-color: #00cce7;
 }
 
