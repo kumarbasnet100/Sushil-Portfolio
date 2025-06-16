@@ -147,20 +147,24 @@ nav ul li a:hover {
 }
 
 .button {
-  display: inline-block;
+  display: inline-block !important;
   margin-top: 1.25rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #00f0ff;
-  color: #09131c;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-  font-size: clamp(0.9rem, 2vw, 1rem);
+  padding: 0.75rem 1.5rem !important;
+  background-color: #00f0ff !important;
+  color: #09131c !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+  transition: background-color 0.3s !important;
+  font-size: clamp(0.9rem, 2vw, 1rem) !important;
+  border: none !important;
+  cursor: pointer !important;
 }
 
 .button:hover {
-  background-color: #00c4ff;
+  background-color: #00c4ff !important;
+  color: #09131c !important;
+  text-decoration: none !important;
 }
 
 .intro-image {
@@ -314,15 +318,18 @@ nav ul li a:hover {
 .service-box .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  color: #ffffff;
-  background-color: #00f0ff;
+  color: #09131c !important;
+  background-color: #00f0ff !important;
   border-radius: 25px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  font-weight: bold;
+  font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
 .service-box .button:hover {
-  background-color: #00cce7;
+  background-color: #00cce7 !important;
+  color: #09131c !important;
 }
 
 /* Skills Section */
@@ -532,19 +539,23 @@ nav ul li a:hover {
 }
 
 .contact-form .button {
-  width: 100%;
-  padding: 1rem 1.25rem;
-  background-color: #00f0ff;
-  color: #ffffff;
-  border: none;
-  border-radius: 25px;
-  font-size: clamp(1rem, 2.5vw, 1.125rem);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  width: 100% !important;
+  padding: 1rem 1.25rem !important;
+  background-color: #00f0ff !important;
+  color: #09131c !important;
+  border: none !important;
+  border-radius: 25px !important;
+  font-size: clamp(1rem, 2.5vw, 1.125rem) !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  margin-top: 0 !important;
 }
 
 .contact-form .button:hover {
-  background-color: #00cce7;
+  background-color: #00cce7 !important;
+  color: #09131c !important;
 }
 
 /* Footer */
